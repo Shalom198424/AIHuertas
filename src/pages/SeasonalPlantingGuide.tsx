@@ -8,11 +8,11 @@ const SeasonalPlantingGuide = () => {
     {
       id: 1,
       name: "Primavera",
-      months: "Marzo - Mayo",
+      months: "Septiembre - Diciembre",
       temperature: "10°C - 20°C",
       description:
         "La temporada ideal para plantar la mayoría de vegetales y flores anuales. El suelo comienza a calentarse y las heladas disminuyen.",
-      plants: ["Tomates", "Pimientos", "Calabacines", "Pepinos", "Judías"],
+      plants: ["Tomates", "Pimientos", "Zapallitos", "Pepinos", "Chauchas"],
       tips: "Prepare el suelo con compost y espere a que pase el último riesgo de heladas antes de plantar cultivos sensibles al frío.",
       image:
         "https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?w=800&q=80",
@@ -20,7 +20,7 @@ const SeasonalPlantingGuide = () => {
     {
       id: 2,
       name: "Verano",
-      months: "Junio - Agosto",
+      months: "Diciembre - Marzo",
       temperature: "20°C - 30°C",
       description:
         "Tiempo para mantener los cultivos existentes y plantar para la cosecha de otoño. Enfóquese en el riego adecuado durante los períodos calurosos.",
@@ -38,30 +38,30 @@ const SeasonalPlantingGuide = () => {
     {
       id: 3,
       name: "Otoño",
-      months: "Septiembre - Noviembre",
+      months: "Marzo - Junio",
       temperature: "10°C - 20°C",
       description:
         "Excelente temporada para plantar cultivos de clima fresco y árboles. El suelo aún está cálido pero el aire es más fresco.",
-      plants: ["Espinacas", "Coles", "Ajos", "Cebollas", "Guisantes"],
-      tips: "Agregue mantillo para proteger las raíces a medida que se acerca el invierno y plante bulbos de primavera antes de las heladas.",
+      plants: ["Espinacas", "Coles", "Ajos", "Cebollas", "Mostazas/Mizunas", "Acelgas"],
+      tips: "Agregue mantillo para proteger las raíces a medida que se acerca el invierno como asi tambien manta antihelada para protejer la parte aerea de nuestros cultivos.",
       image:
         "https://i.imgur.com/6Q7Y6rL.jpeg",
     },
     {
       id: 4,
       name: "Invierno",
-      months: "Diciembre - Febrero",
+      months: "Junio - Septiembre",
       temperature: "0°C - 10°C",
       description:
-        "Tiempo para planificar, preparar y plantar cultivos resistentes al frío en climas más suaves. En zonas frías, enfóquese en la planificación del jardín.",
+        "Tiempo para planificar, preparar y plantar cultivos resistentes al frío en climas más suaves. En zonas frías, enfóquese en la planificación de la huerta de primavera.",
       plants: [
         "Habas",
-        "Algunas variedades de guisantes",
-        "Ajos",
-        "Chalotes",
-        "Ruibarbo",
+        "Arvejas",
+        "Espinacas",
+        "Puerros",
+        "Inicios de cultivos de primavera",
       ],
-      tips: "Utilice túneles fríos o invernaderos para extender la temporada de cultivo y proteja las plantas perennes con mantillo adicional.",
+      tips: "Utilice microtuneles o invernaderos para protejer las plantas. Tambien podemos usar manta antihelada para protejer nuestra huerta.",
       image:
         "https://i.imgur.com/VyczvAW.jpeg",
     },
