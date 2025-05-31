@@ -1,54 +1,68 @@
-# React + TypeScript + Vite
+# AIHuertas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+AIHuertas es una aplicación web desarrollada con **React**, **TypeScript** y **Vite**. El proyecto está enfocado en la creación de un foro interactivo donde los usuarios pueden compartir tips y solicitar consejos sobre temas relacionados a Huertas Agroecológicas  y  crecer como Horticultores.
 
-Currently, two official plugins are available:
+## Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Interfaz moderna y responsiva.
+- Sistema de foros con hilos, respuestas y categorías.
+- Componentes reutilizables con TypeScript.
+- Integración con iconos y estilos personalizados.
+- Configuración optimizada con Vite para desarrollo rápido.
 
-## Expanding the ESLint configuration
+## Instalación
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+1. Clona el repositorio:
+   ```sh
+   git clone https://github.com/TU_USUARIO/AIHuertas.git
+   cd AIHuertas
+   ```
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+2. Instala las dependencias:
+   ```sh
+   npm install
+   ```
+
+3. Inicia el servidor de desarrollo:
+   ```sh
+   npm run dev
+   ```
+
+4. Abre [http://localhost:5173](http://localhost:5173) en tu navegador.
+
+## Scripts disponibles
+
+- `npm run dev` – Inicia el servidor de desarrollo.
+- `npm run build` – Genera la versión de producción.
+- `npm run preview` – Previsualiza la app de producción localmente.
+- `npm run lint` – Ejecuta el linter para revisar el código.
+
+## Estructura del proyecto
+
+```
+src/
+  components/      # Componentes reutilizables
+  pages/           # Páginas principales de la app
+  App.tsx          # Componente raíz
+  main.tsx         # Punto de entrada
+public/            # Archivos estáticos
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Tecnologías utilizadas
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- [React](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Vite](https://vitejs.dev/)
+- [React Router](https://reactrouter.com/)
+- [Lucide React Icons](https://lucide.dev/)
+- [ESLint](https://eslint.org/)
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## Contribución
+
+¡Las contribuciones son bienvenidas! Por favor, abre un issue o un pull request para sugerencias y mejoras.
+
+## Licencia
+
+Este proyecto está bajo la licencia MIT.
+
+
